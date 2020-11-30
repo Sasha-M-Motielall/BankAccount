@@ -4,8 +4,8 @@ public class BankAccount {
   private String password;
 
   public BankAccount (int a, String p) {
-    a = accountID;
-    p = password;
+    accountID = a;
+    password = p;
     balance = 0;
   }
 
