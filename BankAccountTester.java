@@ -17,5 +17,8 @@ public class BankAccountTester {
     System.out.println(ba.getBalance());
     System.out.println(ba.withDraw(1000.00));
     System.out.println(ba.getBalance());
+
+    System.out.println();
+    System.out.println(ba.toString());
   }
 }
